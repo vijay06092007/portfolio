@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<!--css link and files-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+	
+</head>
+<body>
+	<nav>
+		<div class="logo" onclick="document.location='html/index.html'">
+			<h1>Port<span>Folio</span></h1>
+		</div>
+		<div class="nav-link">
+			<a href="#home">Home</a>
+			<a href="#about">About Me</a>
+			<a href="#certificate">Certificates</a>
+			<a href="#projects">Projects</a>
+			
+		</div>
+		<div class="btn-query">
+			<button>For Query</button>
+		</div>
+	</nav> 
+	<section class="home" id="home" style="background: url(images/Curve-Line.svg);background-position: center;background-size: cover;">
+		<div class="intro">
+			<h1>Hi, I'm <span>Vijay</span></h1>
+			<p>I'm a student of Class 10 <br>
+				in Aditya Vidyashram
+			</p>
+			<button class="abt">About Me</button>
+		</div>
+	</section>
+	<section class="about" id="about" style="background: url(images/Wave-Line.svg);background-position: center;background-size: cover;">
+		<div class="abt-cont">
+			<div class="card-cont-1">
+				<h1>ABOUT <span>ME</span></h1>
+			</div>
+			<hr>
+			<br>
+			<div class="card-cont-2">
+				<p>
+					<strong>Hello Everyone !!!.,</strong>My Name is <em>Vijay.G.V</em> I'm studying in class 10 - SRG in <br>
+					<em><a href="https://adityacbse.com" target="_blank"> Aditya Vidyashram</a></em>. <br><br>
+					Now let me share few things about me, My <strong>Favourite subject</strong> is <em>Mathematics</em><br>
+					Some of my <strong>Hobbies</strong> are, <em>Frontend web development, Gardening, Reading books</em><br>
+					(especially Sci-fi comics), and also <em>watching historical movies</em><br>
+					<br>
+					This project is my <strong>Portfolio</strong> which is one of my school project.,<br>
+					also, You can view my <em>Projects and Certificates</em> in the succeeding sections
+				</p>      
+			</div>
+		</div>
+	</section>
+	<section class="certificate" id="certificate" style="background:url(images/Meteor.svg);background-position: center;background-size: cover;    ">
+		<div class="slideshow-container">
+			
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 9</div>
+				<img src="images/certificate.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 9</div>
+				<img src="images/certificate (1).jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 9</div>
+				<img src="images/certificate (2).jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 9</div>
+				<img src="images/certificate (3).jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 9</div>
+				<img src="images/certificate (6).jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 9</div>
+				<img src="images/certificate (7).jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 9</div>
+				<img src="images/certificate (8).jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 9</div>
+				<img src="images/certificate (13).jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">9 / 9</div>
+				<img src="images/certificate (14).jpg" style="width:100%">
+			</div>
+			
+			
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+			
+		</div>
+		<br>
+		
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+			<span class="dot" onclick="currentSlide(5)"></span> 
+			<span class="dot" onclick="currentSlide(6)"></span> 
+			<span class="dot" onclick="currentSlide(7)"></span> 
+			<span class="dot" onclick="currentSlide(8)"></span> 
+			<span class="dot" onclick="currentSlide(9)"></span> 
+		</div>
+		
+	</section>
+	
+	<section class="projects" id="projects" style="background:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(images/Curve\ Line\ \(2\).svg); background-position: center;background-repeat: no-repeat;background-size: cover;">
+		<div class="card-pro">
+            <img src="images/iyal1.jpg" alt="Avatar" style="width:100%">
+            <div class="container-pro">
+              <h4><b>Tamil</b></h4> 
+              <p>Unit-01 project based on names given to plants parts and plant stages in tamil language</p>            
+            </div>
+            <button onclick=" window.open('pdf/iyal1.pdf', '_blank'); return false;">View Project</button>
+        </div>
+		<div class="card-pro">
+            <img src="images/iyal1.jpg" alt="Avatar" style="width:100%">
+            <div class="container-pro">
+              <h4><b>Tamil</b></h4> 
+              <p><br>Unit-02 project based on the poem <br>'KAATRE VAA'<br><br></p>            
+            </div>
+            <button onclick=" window.open('pdf/iyal1.pdf', '_blank'); return false;">View Project</button>
+        </div>
+		<div class="card-pro">
+            <img src="images/social.jpg" alt="Avatar" style="width:100%">
+            <div class="container-pro">
+              <h4><b>Social Science</b></h4> 
+              <p><br> assignment based on consumer awareness and consumer rights <br><br></p>            
+            </div>
+            <button onclick=" window.open('pdf/Social Project.pdf', '_blank'); return false;">View Project</button>
+        </div>
+          
+	</section>
+	
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+		}
+	</script>
+</body>
+</html>
+
